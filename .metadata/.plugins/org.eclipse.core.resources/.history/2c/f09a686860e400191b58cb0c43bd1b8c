@@ -1,0 +1,22 @@
+import java.net.URL;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			URL url = new URL("http://www.youtube.com/watch?v=CXswo2tMmgI");
+			System.out.println("Protocol: " + url.getProtocol());
+			System.out.println("Host Name: " + url.getHost());
+			System.out.println("Port Number: " + url.getPort());
+			System.out.println("File Name: " + url.getFile());
+			System.out.println("getAuthority: " + url.getAuthority());
+			System.out.println("getQuery: " + url.getQuery());
+			System.out.println("getContent: " + url.getContent());
+			System.out.println("getRef: " + url.getRef());
+			System.out.println("toURI: " + url.toURI());
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+	}
+}

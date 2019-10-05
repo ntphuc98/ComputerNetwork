@@ -1,0 +1,31 @@
+public class MainTest {
+	public static void main(String[] args) {
+		for (int i = 1; i <= 5; i++) {
+			for (int k = 4; i <= 5; i++) {
+				System.out.print(" ");
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+			for (int j = 1; j <= i; j++) {
+				System.out.print(i + " ");
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+			System.out.println("");
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+}

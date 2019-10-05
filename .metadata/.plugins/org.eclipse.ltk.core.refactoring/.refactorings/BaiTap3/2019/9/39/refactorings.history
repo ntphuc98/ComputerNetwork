@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;runable&apos; to &apos;BaiTap4/src&apos;&#x0A;- Original project: &apos;BaiTap3&apos;&#x0A;- Destination element: &apos;BaiTap4/src&apos;&#x0A;- Original element: &apos;BaiTap3/src/runable&apos;&#x0A;- Update references to refactored element" description="Move package" destination="=BaiTap4/src" element1="/src&lt;runable" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1569346756872" version="1.0"/>
+</session>

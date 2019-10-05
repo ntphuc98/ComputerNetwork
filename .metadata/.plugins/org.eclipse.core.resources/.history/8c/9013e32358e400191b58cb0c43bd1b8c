@@ -1,0 +1,18 @@
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try{
+			InetAddress[] dc = InetAddress.getAllByName("www.fb.com");
+			System.out.println(dc[0]);
+		}
+		catch(UnknownHostException e)
+		{
+			System.err.println(e);
+		}
+	}
+
+}

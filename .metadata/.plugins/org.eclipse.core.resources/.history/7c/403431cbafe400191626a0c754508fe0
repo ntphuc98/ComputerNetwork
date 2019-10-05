@@ -1,0 +1,19 @@
+import java.io.DataInputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		URL url;
+		Bai2 bai2;
+		try {
+			url = new URL("http://www.microsoft.com");
+			bai2 = new Bai2(url);
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,21 @@
+import java.io.IOException;
+import java.net.URL;
+import java.net.URLConnection;
+
+public class Bai2 {
+	public static URL url;
+	public static URLConnection uc;
+
+	public Bai2(URL url) {
+		this.url = url;
+	}
+	public void content() {
+		try {
+			uc = url.openConnection();
+			System.out.println(ucgetContent());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

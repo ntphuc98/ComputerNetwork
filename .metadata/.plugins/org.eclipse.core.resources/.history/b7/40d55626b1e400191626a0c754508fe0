@@ -1,0 +1,29 @@
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.net.URLConnection;
+
+public class Bai2 {
+	public URL url;
+	public URLConnection uc;
+
+	public Bai2(URL url) {
+		this.url = url;
+	}
+	public void content() {
+
+		Object theHtml;
+		String thisLine;
+		try {
+			uc = url.openConnection();
+			theHtml = uc.getContent();
+			while( (thisLine = theHtml.readLine()) != null)
+			{
+				System.out.println(thisLine);
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

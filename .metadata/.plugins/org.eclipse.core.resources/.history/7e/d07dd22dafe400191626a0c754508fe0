@@ -1,0 +1,10 @@
+import java.net.URL;
+
+public class Bai2 {
+	public static URL url;
+	public static URLConnection uc;
+
+	public Bai2(URL url) {
+		this.url = url;
+	}
+}

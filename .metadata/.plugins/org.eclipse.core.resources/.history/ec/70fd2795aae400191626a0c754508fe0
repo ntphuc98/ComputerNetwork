@@ -1,0 +1,10 @@
+import java.net.URL;
+
+public class Bai1 {
+	URL url;
+	public static void getInfo(Url url) {
+		// tên file, tên host, số hiệu cổng, kiểu giao thức
+		
+	}
+	
+}

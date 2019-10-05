@@ -1,0 +1,9 @@
+import java.net.URL;
+
+public class Bai2 {
+	public static URI url;
+
+	puclic Bai2(URL url) {
+		this.url = url;
+	}
+}

@@ -1,0 +1,11 @@
+import java.io.DataInputStream;
+import java.net.URL;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		URL url = new URL();
+		Bai2 bai2 = new Bai2();
+	}
+}

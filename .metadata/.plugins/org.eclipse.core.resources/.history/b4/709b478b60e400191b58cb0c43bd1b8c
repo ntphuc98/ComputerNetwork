@@ -1,0 +1,17 @@
+import java.io.DataInputStream;
+import java.net.URL;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			URL url = new URL("http://www.youtube.com/watch?v=CXswo2tMmgI");
+			DataInputStream dis = new Da taInputStream(url.openStream());
+			while((thisLine=dis.readLine())!=null) 
+				System.out.println(thisLine);
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+	}
+}

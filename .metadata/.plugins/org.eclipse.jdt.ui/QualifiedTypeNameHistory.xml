@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="bt1.OneToN"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="runable.tuyenchinh"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.net.URLConnection"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="java.net.InetAddress"/>
+    <fullyQualifiedTypeName name="java.net.NetworkInterface"/>
+</qualifiedTypeNameHistroy>
